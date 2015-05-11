@@ -27,4 +27,4 @@ print formatter % (
 #或者一次输出多个变量
 #
 #如果输出的是中文请用%s,不要用%r
-#print formatter % (u"我",u"是",u"孙",u"雪")
+#print formatter % (u"我",u"是",u"小",u"寒")
