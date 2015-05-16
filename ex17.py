@@ -26,7 +26,7 @@ print "Does the output file exist? %r" % exists(to_file)#输出的文件是否�
 print "Ready , hit RETURN to continue,CTRL-C to abort."
 raw_input()
 
-out_file = open(to_file, 'w')
+out_file = open(to_file, 'w')#这里需要注意下写的模式下不可以读
 out_file.write(indata)
 
 print "Alright, all done."
