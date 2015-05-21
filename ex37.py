@@ -94,3 +94,32 @@ print id(es)
 print id(ess)
 
 #理解lambda
+g = lambda :"lambda test."
+print g()
+num1 = lambda x, y=1:x + y
+print num1(1)      #多个变量的时候，可以不给有默认值的变量传值
+print num1(10,10)  #值得注意的是，如果y没有默认值而且不给它传值的话报错！
+
+#######
+#数据类型
+#######
+print True and False  #注意首字母大写
+print None == ""
+print None == 0     #注意None是特殊的一种数据类型
+print "test \\b\b" #测试\b
+
+
+#######
+#转义字符
+#######
+print "test \\b  :lo\bve" #测试\b,应该输出lve
+
+print u"你好吗？\n朋友" #\n 和 \b的区别
+print u"——分隔线——"
+print u"你好吗？\r朋友"
+
+#######
+#字符串格式化
+#######
+
+print "%f,%F"% (3.1422222222222222222,3.1422222222222222222)#我没发现区别！
