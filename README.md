@@ -39,6 +39,6 @@
 	1.关于commit的信息，我发现我写的commit -m "xxx"没有什么实际意义，这样很不好，我从今天开始就写英文的commit。	
 	<br>
 	2.每个文件单独提交，不一次提交很多个文件。<br>
-	<strong>://www.cnblogs.com/xueweihan/</strong>
+	<strong>我的博客：http://www.cnblogs.com/xueweihan/</strong>
 	
 </p>
