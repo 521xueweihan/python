@@ -2,12 +2,12 @@
 <h1>第一本：从头学python（Learn Python the Hrad Way）</h1>
 <p>
 	<li>
-这是记录我学习python的过程，同时我也希望自己熟练的运用Git。所以创建了这个项目。
-在次期间我会上传我手写的所有代码，学习中的感悟和笔记会在py文件中以注释形式展出。
-如果有什么新的公告会在README中通知大家。
+    这是记录我学习python的过程，同时我也希望自己熟练的运用Git。所以创建了这个项目。
+    在次期间我会上传我手写的所有代码，学习中的感悟和笔记会在py文件中以注释形式展出。
+    如果有什么新的公告会在README中通知大家。
 	</li>
 	<li>
-		我的博客：http://www.cnblogs.com/xueweihan/
+		我的博客：http://www.cnblogs.com/xueweihan/<br>
         微信：xueweihan<br>
         邮箱：595666367@qq.com
 	</li>
@@ -29,15 +29,16 @@
 	所以我打算从ex26.py开始每个文件都单个上传，这样写的commit信息有助于让大家快速的找到自己需要的文件！
 	<br>
 	结果我发现一个严肃的问题：commit没法写中文！(我认为比较麻烦) god 饶恕我这个败给四级狗的凡人吧！<br>
-	<strong>所以我决定还是：多个文件一起上传，写一个commit。。。。
+	所以我决定还是：多个文件一起上传，写一个commit。。。。
 	
 </p>
 <p>
 	<h2>
 	2015-5-21声明3：
 	</h2>
-	关于commit的信息，我发现我写的commit -m "xxx"没有什么实际意义，这样很不好，我从今天开始就写英文的commit	
+	1.关于commit的信息，我发现我写的commit -m "xxx"没有什么实际意义，这样很不好，我从今天开始就写英文的commit。	
 	<br>
-	在这里宣传一下我的博客：http://www.cnblogs.com/xueweihan/
+	2.每个文件单独提交，不一次提交很多个文件。<br>
+	<strong>://www.cnblogs.com/xueweihan/</strong>
 	
 </p>
