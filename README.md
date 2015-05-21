@@ -7,6 +7,7 @@
 如果有什么新的公告会在README中通知大家。
 	</li>
 	<li>
+		我的博客：http://www.cnblogs.com/xueweihan/
         微信：xueweihan<br>
         邮箱：595666367@qq.com
 	</li>
@@ -29,5 +30,14 @@
 	<br>
 	结果我发现一个严肃的问题：commit没法写中文！(我认为比较麻烦) god 饶恕我这个败给四级狗的凡人吧！<br>
 	<strong>所以我决定还是：多个文件一起上传，写一个commit。。。。
+	
+</p>
+<p>
+	<h2>
+	2015-5-21声明3：
+	</h2>
+	关于commit的信息，我发现我写的commit -m "xxx"没有什么实际意义，这样很不好，我从今天开始就写英文的commit	
+	<br>
+	在这里宣传一下我的博客：http://www.cnblogs.com/xueweihan/
 	
 </p>
