@@ -1,4 +1,7 @@
 #coding:utf-8
+#################
+# 习题1:第一个程序
+#################
 print "hello Word!"
 print  u"你好？"
 print "你好?"#在linux系统下不需要加u
