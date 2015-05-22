@@ -1,5 +1,5 @@
 #Python
-<h1>笨方法学Python（Learn Python the Hrad Way）</h1>
+<h1>笨方法学Python——Zed A.Shaw著</h1>
 <p>
 	<li>
     这是记录我学习python的过程，同时我也希望自己熟练的运用Git。所以创建了这个项目。
@@ -13,7 +13,17 @@
         邮箱：595666367@qq.com
 	</li>
 </p>
-
+<!--常用html标签：
+有序标签：
+      <OL>
+	  <LI>有序标签</LI>
+	  <LI>有序标签</LI>
+	  <LI>有序标签</LI>	
+ 	  </OL>
+连接： 	  
+ 	  <a href="url">Link text</a>
+ 	  
+-->
 <p>
 	<h2>
 	2015-5-22声明4：
