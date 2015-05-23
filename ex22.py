@@ -19,7 +19,7 @@ print 2 + 3
 print 3 < 5
 
 # 4.变量和命名
-name = u"姓名:王尼玛 " 
+name = u"姓名:削微寒 " 
 age = u"age=15"
 print "name+age: ", name+age
 
