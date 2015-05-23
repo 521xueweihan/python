@@ -1,12 +1,12 @@
 #coding:utf-8
 #################
-#习题29:if语句
+# 习题29:if语句
 #################
-#前言
+# 前言
 #
-#朋友们终于到有逻辑的地方了，你们难道不兴奋吗？
+# 朋友们终于到有逻辑的地方了，你们难道不兴奋吗？
 #
-#
+
 
 people = 20
 cats = 30
@@ -20,7 +20,7 @@ if people > cats:
     print "Not many cats! The world is saved!"
     
 if people < dogs:
-    print "The world is drooled on!"#流口水
+    print "The world is drooled on!"    # 流口水
     
 if people > dogs:
     print "The world is dry!"
