@@ -1,12 +1,12 @@
 #coding:utf-8
 #################
-#习题30:else 和 if
+# 习题30:else 和 if
 #################
-#前言
+# 前言
 #
-#那四个空格的意思就是：缩进块
+# 那四个空格的意思就是：缩进块
 #
-#
+
 
 people = 30
 cars = 40
@@ -32,7 +32,7 @@ if people > buses:
 else:
     print"Fine ,let's stay home then."
     
-if people > cars and people >buses:#这里写一些加入布尔关系式的条件
+if people > cars and people >buses:    # 这里写一些加入布尔关系式的条件
     print u"没车可作！"
 elif people < cars:
     print u"做car"
