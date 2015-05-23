@@ -93,7 +93,7 @@ file_object = open(file_name, 'a+')    # 这里需要注意的是：写的模式
 # 14.读写文件
 file_object.write(your_name)
 file_output(file_name)
-line = 4 #改一下这个数，看看你发现了什么
+line = 4    # 改一下这个数，看看你发现了什么
 file_return(line, file_object)
 # 我这个方法写的有问题，应该把rewind方法单独出来，否则每次
 # 调用的时候，输出的都是第一行。
