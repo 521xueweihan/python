@@ -1,13 +1,13 @@
 #coding:utf-8
 #################
-#习题31:做出决定	
+# 习题31:做出决定	
 #################
-#前言
+# 前言
 #
-#练习一下:if
+# 练习一下:if
 #
-#
-print "You enter a dark room with two doors.    Do you go through door #1 or door #2?"
+
+print "You enter a dark room with two doors.  Do you go through door #1 or door #2?"
 
 door = raw_input("> ")
 
@@ -38,7 +38,7 @@ elif door == "2":
     else:
         print "The insanity rots your eyes into a pool of muck. God job."
 
-#这里是我增加的功能       
+# 这里是我增加的功能       
 elif door == "3":
     print u"发现一只熊猫！"
     print u"1.说：你好!"
@@ -53,6 +53,6 @@ elif door == "3":
 else:
     print "You stumble around and fall on a knife and die. God job."
     
-#如果看完第一遍你有些发晕
-#那你就画一个流程图（不懂百度一下--强行植入广告）看看
+# 如果看完第一遍你有些发晕
+# 那你就画一个流程图（不懂百度一下--强行植入广告）看看
 #
