@@ -11,13 +11,13 @@ class Song(object):
     
     def __init__(self, lyrics):
         self.lyrics = lyrics
-        self.name = xueweihan
+        self.name = "xueweihan"    # 这就是要输出的东西
         
     def sing_me_a_song(self):
         for line in self.lyrics:
             print line
     
-    def screech(self):
+    def screech(self):    #  我在这里新增了一个方法--输出一些东西
         print "-" * 5
         print self.name
             
@@ -32,5 +32,5 @@ happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
 
-hi = song()
-hi.screech()
+
+happy_bday.screech()    # 函数的调用在这
