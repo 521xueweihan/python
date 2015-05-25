@@ -39,7 +39,7 @@ for word in urlopen(WORD_URL).readlines():
     WORDS.append(word.strip())
     
 
-def convert(snippet, phrase):    # 转换
+def convert(snippet, phrase):    # 转换--把网站里的单词换到字典中代替那些符号
     class_names = [w.capitalize() for w in
                    random.sample(WORDS, snippet.count("%%%"))]   #
     other_names = random.sample(WORDS, snippet.count("***"))    #
@@ -50,24 +50,24 @@ def convert(snippet, phrase):    # 转换
         param_count = random.randint(1, 3)
         param_names.append(', '.join(random.sample(WORDS, param_count)))    #
         
-    for sentence in snippet, phrase:
-        result = sentence[:]    #
+    for sentence in snippet, phrase:   # 遍历这两个列表
+        result = sentence[:]   
         
-    # fake class names (篡改)
-    for word in class_names:
-        result = result.replace("%%%", word, 1)
+        # fake class names (篡改)——原bug这里的缩进出问题了。
+        for word in class_names:
+            result = result.replace("%%%", word, 1)
         
-    # fake other names
-    for word in other_names:
-        result = result.replace("***", word, 1)
+        # fake other names
+        for word in other_names:
+            result = result.replace("***", word, 1)
         
-    # fake parameter lists
-    for word in param_names:
-        result = result.replace("@@@", word, 1)
+        # fake parameter lists
+        for word in param_names:
+            result = result.replace("@@@", word, 1)
         
-    results.append(result)
+        results.append(result)
     
-    return results
+    return results    #返回替换完单词的列表
     
     
 # keep going until they hit CTRL-D
@@ -79,7 +79,7 @@ try:
         for snippet in snippets:
             phrase = PHRASES[snippet]
             question, answer = convert(snippet, phrase)
-            if PHRASE_FIRST:
+            if PHRASE_FIRST:    # 根据PHRASE_FIRST的值来判定问答的模式
                 question, answer = answer, question
                 
             print question
