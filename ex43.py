@@ -22,7 +22,7 @@ class Scene(object):
 class Engine(object):
     
     def __init__(self, scene_map):
-        self.scene_map = scene_map
+        self.scene_map = scene_map    # 这里运用了类的合成
         
     def play(self):
         current_scene = self.scene_map.opening_scene()
@@ -32,7 +32,7 @@ class Engine(object):
             next_scene_name = current_scene.enter()
             current_scene = self.scene_map.next_scene(next_scene_name)
         
-class Death(Scene):
+class Death(Scene):    # 每个场景都是继承Scene类
 
     def enter(self):
         print u"你死了，GameOver！"
