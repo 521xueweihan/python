@@ -1,7 +1,10 @@
 #coding:utf-8
 from nose.tools import *
 from ex47.game import Room
-#在ex47项目的skeleton文件夹下面——输入：nosetests
+# 在ex47项目的skeleton文件夹下面——输入：nosetests
+# nose是指令，tests--是执行nose指令的文件夹
+# tests文件夹中的xx_tests.py文件就是测试文件，
+# 里面有几个函数就测试就是几个测试用例
 def test_room():
     gold = Room("GoldRoom",
                 """This room has gold in it you can grab. There's a
@@ -16,7 +19,7 @@ def test_room_paths():
     
     center.add_paths({'north': north, 'south': south})
     assert_equal(center.go('north'), north)
-    assert_equal(center.go('south'), south)    #用断言判断两个值是否相等
+    assert_equal(center.go('south'), south)    # 用断言判断两个值是否相等
     
 def test_map():
     start = Room("Start", "You can go west and down a hole.")
@@ -30,6 +33,7 @@ def test_map():
     assert_equal(start.go('west'), west)
     assert_equal(start.go('west').go('east'), start)
     assert_equal(start.go('down').go('up'), start)
+    
 # 笔记    
 # 1.测试脚本要放在test/目录下，并且命名为xx_tests.py,否则nosetests就不会执行
 # 你的测试脚本了。这样还有一个好处就是防止测试代码和别的代码互相混掉。
