@@ -1,0 +1,32 @@
+$def with (content)
+<html>
+<head>
+    <title>Gothons From Planet Percal #25</title>
+</head>
+<body>
+<p>游戏攻略：
+<ul>
+    <li>escape_pod(
+    '2': the_end_winner,
+    '*': the_end_loser)
+    </li>
+     <li>the_bridge(
+    'throw the bomb': generic_death,
+    'slowly place the bomb': escape_pod)
+    </li>
+
+    <li>laser_weapon_armory(
+    '0132': the_bridge,
+    '*': generic_death)
+    </li>
+
+     <li>central_corridor(
+    'shoot!': generic_death,
+    'dodge!': generic_death,
+    'tell a joke': laser_weapon_armory)
+    </li>
+<p>
+$:content
+
+</body>
+</html>
