@@ -4,7 +4,7 @@ except ImportError:
     from distutils.core import setup
     
 
-cnfig = {
+config = {
          'description': 'My Project',
          'author': 'XueWeiHan',
          'url': 'URL to get it at.',
