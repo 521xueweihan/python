@@ -1,15 +1,16 @@
 # Python
-> 笨方法学Python——Zed A.Shaw著
+> 笨方法学 Python——Zed A.Shaw著
 
-这是记录我学习python的过程，同时我也希望自己熟练的运用Git。所以创建了这个项目。
 
-在此期间我会上传我手写的所有代码，学习中的感悟和笔记会在py文件中以注释形式展出。
+这是我学习《笨方法学 Python》过程中的笔记，同时我也希望自己熟练的运用Git，所以创建了这个项目。
+
+在此期间我会上传我手写的所有代码，学习中的感悟和笔记会在 `.py` 文件中以注释形式展出（已全部完成）。
 
 如果有什么新的公告会在README中通知大家。
 
-**联系我？**
+- [《笨方法学 Python》](https://www.gitbook.com/download/pdf/book/flyouting/learn-python-the-hard-way-cn)
 
-[点击我的博客](http://www.cnblogs.com/xueweihan/)
+- 联系我：[点击我的博客](http://www.cnblogs.com/xueweihan/)
 
 ## 2017-1-29声明6：
 今天本来是准备修改 README 中的一个错误，在修改的时候发现——当时创建这个项目的时候，我还不会 Markdown ，还都是用`html`写的。
