@@ -100,6 +100,8 @@ file_return(line, file_object)
 file_object.close()
 # 这里的意思是：函数应该每次只干一件事情
 #print file_object.read()
-
+欢迎光临//////
+什么车 打开看看出门 多看看是看看  但是 
+岁的那年单杀对面看看看看酷酷酷 
 
 
