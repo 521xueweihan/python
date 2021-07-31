@@ -2,9 +2,10 @@
 #################
 # 习题1:第一个程序
 #################
-print("hello Word!")
+print("hello World!")
 print (u"你好？")
 print("你好?")
+print("testcommitttttt")
 print("Heloo Again")
 print("I like typing this.")
 print("This is fun.")
